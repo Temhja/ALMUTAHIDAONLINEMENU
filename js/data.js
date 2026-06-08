@@ -89,8 +89,8 @@ const PRODUCTS = [
   { id: 13, category: "grills", ar: "كباب هندي", ku: "کەبابی هیندی", en: "Indian Kebab", price: 15000, desc: { ar: "توابل الكباب الهندي الأصيل", ku: "بهاراتی کەبابی هیندی ئەسڵ", en: "Authentic Indian kebab" }, emoji: "🌿" },
   { id: 14, category: "grills", ar: "اجنحة مشوية", ku: "باڵی بریان", en: "Grilled Wings", price: 15000, desc: { ar: "توابل الاجنحة المشوية المميزة", ku: "بهاراتی باڵی بریانی تایبەت", en: "Special grilled wings spices" }, emoji: "🔥" },
   { id: 15, category: "grills", ar: "مسحب دجاج", ku: "مرۆشکی کێشراو", en: "Chicken Pulled", price: 15000, desc: { ar: "توابل الدجاج المسحب المثالية", ku: "بهاراتی مرۆشکی کێشراوی گونجاو", en: "Perfect pulled chicken spices" }, emoji: "🫙" },
-  { id: 16, category: "grills", ar: "ضلوع لحم", ku: "پڕووکی گۆشت", en: "Meat Ribs", price: 15000, desc: { ar: "توابل الضلوع المثالية", ku: "بهاراتی پڕووکی گونجاو", en: "Perfect meat ribs spices" }, emoji: "🦴" },
-  { id: 17, category: "grills", ar: "كباب باذنجان", ku: "کەبابی بادیمجان", en: "Eggplant Kebab", price: 15000, desc: { ar: "كباب الباذنجان الشهي", ku: "کەبابی بادیمجانی خۆشەویست", en: "Delicious eggplant kebab" }, emoji: "🍆" },
+  { id: 16, category: "grills", ar: "شاورما لحم", ku: "شاورما لحم", en: "Meat Shawarma", price: 15000, desc: { ar: "توابل شاورما لحم المثالية", ku: "بهارات شاورما لحم", en: "Perfect meat shawarma spices" }, emoji: "🦴" },
+  { id: 17, category: "grills", ar: "شاورما دجاج", ku: "شاورما دجاج", en: "chicken shawarma", price: 15000, desc: { ar: "بهارات شاورما دجاج", ku: "بهارات شاورما دجاج", en: "chicken shawarma spices" }, emoji: "🍆" },
 
   // Mandi
   { id: 18, category: "mandi", ar: "مندي لحم", ku: "مەندی گۆشت", en: "Meat Mandi", price: 15000, desc: { ar: "توابل المندي اليمني الأصيل", ku: "بهاراتی مەندی یەمەنی ئەسڵ", en: "Authentic Yemeni meat mandi" }, emoji: "🍖" },
@@ -202,8 +202,8 @@ const PRODUCTS = [
   { id: 108, category: "italianKitchen", ar: "بيتزا لحم", ku: "پیتزای گۆشت", en: "Meat Pizza", price: 15000, desc: { ar: "توابل بيتزا اللحم الإيطالية", ku: "بهاراتی پیتزای گۆشتی ئیتاڵی", en: "Italian meat pizza spices" }, emoji: "🍕" },
   { id: 109, category: "italianKitchen", ar: "بيتزا دجاج", ku: "پیتزای مرۆشک", en: "Chicken Pizza", price: 15000, desc: { ar: "توابل بيتزا الدجاج الإيطالية", ku: "بهاراتی پیتزای مرۆشکی ئیتاڵی", en: "Italian chicken pizza spices" }, emoji: "🍕" },
   { id: 110, category: "italianKitchen", ar: "بيتزا خضار", ku: "پیتزای سەوزە", en: "Veggie Pizza", price: 15000, desc: { ar: "توابل بيتزا الخضار", ku: "بهاراتی پیتزای سەوزە", en: "Vegetable pizza spices" }, emoji: "🥗" },
-  { id: 111, category: "italianKitchen", ar: "فوتوشيني لحم", ku: "فۆتووچینیی گۆشت", en: "Meat Fettuccine", price: 15000, desc: { ar: "صوص الفوتوشيني بالكريمة واللحم", ku: "سۆسی فۆتووچینیی کرێمی و گۆشت", en: "Creamy meat fettuccine sauce" }, emoji: "🍝" },
-  { id: 112, category: "italianKitchen", ar: "فوتوشيني دجاج", ku: "فۆتووچینیی مرۆشک", en: "Chicken Fettuccine", price: 15000, desc: { ar: "صوص الفوتوشيني بالكريمة والدجاج", ku: "سۆسی فۆتووچینیی کرێمی و مرۆشک", en: "Creamy chicken fettuccine" }, emoji: "🍝" },
+  { id: 111, category: "italianKitchen", ar: "لحم بعجين ", ku: "لحمبعجين", en: "lahmacun", price: 15000, desc: { ar: "بهارات لحم بعجين", ku: "بهارات لحم بعجين", en: "lahmacun spices" }, emoji: "🍝" },
+  { id: 112, category: "italianKitchen", ar: "فوتوشيني دجاج", ku: "لحم بعجين", en: "Chicken Fettuccine", price: 15000, desc: { ar: "صوص الفوتوشيني بالكريمة والدجاج", ku: "سۆسی فۆتووچینیی کرێمی و مرۆشک", en: "Creamy chicken fettuccine" }, emoji: "🍝" },
   { id: 113, category: "italianKitchen", ar: "لزانيا لحم", ku: "لازانیای گۆشت", en: "Meat Lasagna", price: 15000, desc: { ar: "توابل لزانيا اللحم الإيطالية", ku: "بهاراتی لازانیای گۆشتی ئیتاڵی", en: "Italian meat lasagna spices" }, emoji: "🫙" },
   { id: 114, category: "italianKitchen", ar: "لزانيا دجاج", ku: "لازانیای مرۆشک", en: "Chicken Lasagna", price: 15000, desc: { ar: "توابل لزانيا الدجاج الإيطالية", ku: "بهاراتی لازانیای مرۆشکی ئیتاڵی", en: "Italian chicken lasagna" }, emoji: "🫙" },
 
